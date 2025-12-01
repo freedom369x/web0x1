@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="title" content="Free JavaScript Obfuscator Online - web0x1 Code Protection Tool">
+    <meta name="description" content="Professional JavaScript, CSS & HTML obfuscator tool. Protect your web code from reverse engineering with advanced obfuscation, domain locking, and encryption. 100% free online tool.">
+    <meta name="keywords" content="javascript obfuscator, js obfuscator online, code obfuscator, javascript encryption, protect javascript code, js code protection, css obfuscator, html obfuscator, free obfuscator, web code protection, domain lock javascript, secure javascript, minify obfuscate javascript">
+    <meta name="author" content="Sujon Islam">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://web0x1.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://web0x1.vercel.app/">
+    <meta property="og:title" content="Free JavaScript Obfuscator Online - web0x1 Code Protection Tool">
+    <meta property="og:description" content="Professional JavaScript, CSS & HTML obfuscator tool. Protect your web code from reverse engineering with advanced obfuscation and domain locking.">
+    <meta property="og:image" content="https://i.ibb.co.com/sJpPKKPG/20250919-155418.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="web0x1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://web0x1.vercel.app/">
+    <meta name="twitter:title" content="Free JavaScript Obfuscator Online - web0x1">
+    <meta name="twitter:description" content="Professional JavaScript, CSS & HTML obfuscator tool. Protect your code with advanced obfuscation.">
+    <meta name="twitter:image" content="https://i.ibb.co.com/sJpPKKPG/20250919-155418.png">
+    <link rel="icon" type="image/png" href="https://i.ibb.co.com/sJpPKKPG/20250919-155418.png">
+    <link rel="apple-touch-icon" href="https://i.ibb.co.com/sJpPKKPG/20250919-155418.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "web0x1 JavaScript Obfuscator",
+      "description": "Professional online tool to obfuscate and protect JavaScript, CSS, and HTML code from reverse engineering with advanced encryption and domain locking features.",
+      "url": "https://web0x1.vercel.app/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sujon Islam",
+        "url": "https://worm0x1.vercel.app/"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "150"
+      },
+      "featureList": [
+        "JavaScript Code Obfuscation",
+        "CSS Code Protection",
+        "HTML Obfuscation",
+        "Domain Locking",
+        "Code Encryption",
+        "File Upload Support",
+        "One-Click Download",
+        "Copy to Clipboard"
+      ]
+    }
+    </script>
+    
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "web0x1 Code Obfuscator",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "softwareVersion": "1.0",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Any"
+    }
+    </script>
+    
+    <title>web0x1 – Universal Protector</title>
+    <script src="file.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>{ Advanced JS & CSS Obfuscator }</h1>
+
+        <div id="domainLockBox" class="domain-lock-box">
+            <label class="switch-label">
+                <i class="fas fa-lock"></i>
+                <span>Lock to Domain</span>
+                <span class="switch">
+                    <input type="checkbox" id="domainLockSwitch">
+                    <span class="slider"></span>
+                </span>
+            </label>
+            <input id="domainInput" class="domain-input" placeholder="example.com">
+        </div>
+
+        <div class="editor-wrapper">
+            <div class="editor-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="editor-title">main.js — Protected</span>
+            </div>
+            <div id="codeEditor" class="code-editor"></div>
+        </div>
+
+        <div class="status" id="statusMessage">
+            <i class="fas fa-terminal"></i> Ready to obfuscate...
+        </div>
+
+        <div class="button-container">
+            <button onclick="obfuscateCode()"><i class="fas fa-shield-alt"></i> Protect Code </button>
+            <button onclick="copyToClipboard()"><i class="fas fa-copy"></i> Copy Output</button>
+            <button onclick="downloadCode()"><i class="fas fa-download"></i> Download code</button>
+            <button onclick="document.getElementById('fileInput').click()"><i class="fas fa-upload"></i> Upload File</button>
+            <button class="clear-btn" onclick="clearCode()"><i class="fas fa-trash"></i> Clear code</button>
+        </div>
+        
+        <input type="file" id="fileInput" onchange="handleFileUpload(event)" style="display:none;">
+
+        <div class="footer">
+            Developer <a href="https://worm0x1.vercel.app" target="_blank">Sujon Islam</a>
+           | Our <a href="https://t.me/Freedom369_4u" target="_blank">Telegram</a>
+        </div>
+    </div>
+
+    <a href="chatai.html" class="floating-message-button">
+        <i class="fas fa-comment-dots"></i>
+    </a>
+    <script src="script.js" defer></script>
+</body>
+</html>
